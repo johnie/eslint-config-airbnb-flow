@@ -1,0 +1,65 @@
+{
+  "name": "eslint-config-airbnb-flow",
+  "version": "1.0.0",
+  "description": "Airbnb JavaScript Style Flow support - ESLint Shareable Config",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnie/eslint-config-airbnb-flow.git"
+  },
+  "keywords": [
+    "Airbnb JavaScript Style",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code style",
+    "enforce",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "flow",
+    "simple",
+    "airbnb",
+    "airbnb style",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
+  "author": "Johnie Hjelm <johnie@hjelm.im> (http://johnie.se)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnie/eslint-config-airbnb-flow/issues"
+  },
+  "homepage": "https://github.com/johnie/eslint-config-airbnb-flow#readme",
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*",
+    "eslint": "^3.5.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-plugin-flowtype": "^2.18.1",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-react": "^6.2.2"
+  },
+  "xo": {
+    "esnext": true
+  }
+}

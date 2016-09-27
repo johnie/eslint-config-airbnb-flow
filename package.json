@@ -1,13 +1,14 @@
 {
   "name": "eslint-config-airbnb-flow",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Airbnb JavaScript Style Flow support - ESLint Shareable Config",
   "main": "index.js",
   "scripts": {
     "test": "xo && ava"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "eslintrc.json"
   ],
   "repository": {
     "type": "git",
